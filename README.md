@@ -2,6 +2,8 @@
 
 Для тестирования времени ответа используется [locust](https://locust.io/)
 
+В таблицу dummies было загружено 1М записей с помощью python manage.py fake_dummies
+
 ---
 
 ## Способ 1: С помощью миграций Django и вставкой батчами
@@ -108,3 +110,4 @@ python manage.py migrate --fake
 
 ## Пример изменения времени ответа с локом таблицы
 ![img.png](/img/add_column_locked.png)
+ 
